@@ -1,121 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Prompt:wght@400;700;900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>PRODUCTOS | BLVCKMAMBAVIDEOGAMES</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Prompt:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>PRODUCTOS | BLVCKMAMBAVIDEOGAMES</title>
 </head>
 
 <body>
-    <div class="grid_container">
-        <header class="encabezado"> <!--navbar principal-->
+  <div class="grid_container">
+    <header class="encabezado"> <!--navbar principal-->
 
-            <h1 class="titulo">BLVCKMAMBA VIDEOGAMES</h1>
+      <h1 class="titulo">BLVCKMAMBA VIDEOGAMES</h1>
 
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html">INICIO</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../pages/novedades.html">NOVEDADES</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="../pages/favoritos.html">FAVORITOS</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link prod" href="../pages/productos.html" aria-expanded="false">PRODUCTOS</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="../pages/login-account.html" aria-current="true">INGRESAR</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-            </nav>
+      <nav class="navbar navbar-expand-lg bg-color-fondo">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./novedades.html">NOVEDADES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./favoritos.html">FAVORITOS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link prod" href="./productos.html" aria-expanded="false">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./login-account.html" aria-current="true">INGRESAR</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn botonsearch" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-            <!-- <nav class="firstnavbar">
-               <ul class="firstlist">
-                    <li><a href="../index.html">INICIO</a></li>
-                    <li><a href="novedades.html">NOVEDADES</a></li>
-                    <li><a href="productos.html">PRODUCTOS</a></li>
-                    <li><a href="favoritos.html">FAVORITOS</a></li>
-                    <li><a href="carrito.html">CARRITO</a></li>
-                    <li><a href="login-account.html">INGRESAR</a></li>
-                </ul>
+    <main class="corp">
+      <section class="products">
+        <div>
+          <img class="imgprod" src="../assets/cuarto1.jpg" alt="diseño de cuarto uno">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vel assumenda repellendus aspernatur nostrum
+            quam inventore explicabo porro et quasi culpa dicta ab ullam nulla. Saepe iure perspiciatis non! Nulla?</p>
+          <form action="">
+            <label for=""></label>
+            <input type="button" value="añadir a favoritos">
+            <input type="button" value="comprar">
+          </form>
+        </div>
 
-                <form action="" method="post">
-                    <label for=""></label> 
-                    <input type="search" name="buscar" id="buscar">
-                    <input type="button" value="buscar">
-                </form>
+        <div>
+          <img class="imgprod" src="../assets/cuarto2.jpg" alt="diseño de cuarto uno">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vel assumenda repellendus aspernatur nostrum
+            quam inventore explicabo porro et quasi culpa dicta ab ullam nulla. Saepe iure perspiciatis non! Nulla?</p>
+          <form action="">
+            <input type="button" value="añadir al favoritos">
+            <input type="button" value="Comprar">
+          </form>
+        </div>
 
-            </nav> -->
-        </header> 
+        <div>
+          <img class="imgprod" src="../assets/cuarto3.jpg" alt="diseño de cuarto uno">
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vel assumenda repellendus aspernatur nostrum
+            quam inventore explicabo porro et quasi culpa dicta ab ullam nulla. Saepe iure perspiciatis non! Nulla?</p>
+          <form action="">
+            <input type="button" value="añadir a favoritos">
+            <input type="button" value="comprar">
+          </form>
+        </div>
+      </section>
+    </main>
 
-        <main class="corp">
-            <section class="products">
-                <div>
-                    <img class="imgprod" src="../assets/cuarto1.jpg" alt="diseño de cuarto uno"> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vel assumenda repellendus aspernatur nostrum quam inventore explicabo porro et quasi culpa dicta ab ullam nulla. Saepe iure perspiciatis non! Nulla?</p>
-                    <form action=""></form>
-                    <label for=""></label>
-                    <input type="button" value="añadir a favoritos">
-                    <input type="button" value="comprar">
-                </div>
+    <footer class="pie">
+      <section class="redes"> <!--redes sociales-->
 
-                <div>
-                    <img class="imgprod" src="../assets/cuarto2.jpg" alt="diseño de cuarto uno"> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vel assumenda repellendus aspernatur nostrum quam inventore explicabo porro et quasi culpa dicta ab ullam nulla. Saepe iure perspiciatis non! Nulla?</p>
-                    <form action=""></form>
-                    <input type="button" value="añadir al favoritos">
-                    <input type="button" value="Comprar">
-                </div>
+        <h2>
+          SIGUEME EN MIS REDES
+        </h2>
 
-                <div>
-                    <img class="imgprod" src="../assets/cuarto3.jpg" alt="diseño de cuarto uno"> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In, vel assumenda repellendus aspernatur nostrum quam inventore explicabo porro et quasi culpa dicta ab ullam nulla. Saepe iure perspiciatis non! Nulla?</p>
-                    <form action=""></form>
-                    <input type="button" value="añadir a favoritos">
-                    <input type="button" value="comprar">
-                </div>
-            </section>
-        </main>
+        <ul class="redes-redes">
 
-        <footer class="pie">
-            <section class="redes"> <!--redes sociales-->
+          <div class="instagram">
+            <img src="../assets/insta-logo.jpg" alt="instagram logo">
+            <li><a href="https://www.instagram.com/blvckmamba_sl/#">INSTAGRAM</a></li>
+          </div>
 
-                <h6>
-                   SIGUEME EN MIS REDES
-                </h6>
+          <div class="tiktok">
+            <img src="../assets/tiktok-logo.jpg" alt="tiktok logo">
+            <li><a href="https://www.tiktok.com/@blvckmamba55?is_from_webapp=1&sender_device=pc">TIK TOK</a></li>
+          </div>
 
-                <ul class="redes-redes"> 
+          <div class="facebook">
+            <img src="../assets/facebook-logo.jpg" alt="facebook logo">
+            <li><a
+                href="https://www.facebook.com/evan.slz?__cft__[0]=AZWxLjTH_gAyO4BsSHtZWDnKiyRU0Ph6DSkAYAUf1LgrcwePDhANHeCcmR5CL7Ltec-5LIrTJigPfjeDyT2zqjRwv76hnpHDYTyRoUHSAavEqmkemK083X70elPIJVGZxdton8dEtY0FMUyU8-1q80Hjm4JofL2CaqFdwwe6uMXfyvJKGUJ3m8XmgSBYeEcT9TJ9fzk1BXJ0Y7hxBeSF2PX2&__tn__=-UC%2CP-R">FACEBOOK</a>
+            </li>
+          </div>
+        </ul>
 
-                   <div class="instagram">
-                        <img src="../assets/insta-logo.jpg" alt="instagram logo"><li><a href="https://www.instagram.com/blvckmamba_sl/#">INSTAGRAM</a></li>
-                   </div>
-
-                   <div class="tiktok">
-                        <img src="../assets/tiktok-logo.jpg" alt="tiktok logo"><li><a href="https://www.tiktok.com/@blvckmamba55?is_from_webapp=1&sender_device=pc">TIK TOK</a></li>
-                   </div>
-
-                   <div class="facebook">
-                        <img src="../assets/facebook-logo.jpg" alt="facebook logo"><li><a href="https://www.facebook.com/evan.slz?__cft__[0]=AZWxLjTH_gAyO4BsSHtZWDnKiyRU0Ph6DSkAYAUf1LgrcwePDhANHeCcmR5CL7Ltec-5LIrTJigPfjeDyT2zqjRwv76hnpHDYTyRoUHSAavEqmkemK083X70elPIJVGZxdton8dEtY0FMUyU8-1q80Hjm4JofL2CaqFdwwe6uMXfyvJKGUJ3m8XmgSBYeEcT9TJ9fzk1BXJ0Y7hxBeSF2PX2&__tn__=-UC%2CP-R">FACEBOOK</a></li>
-                   </div>
-                </ul>
-
-            </section>
-        </footer>
-    </div> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+      </section>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
